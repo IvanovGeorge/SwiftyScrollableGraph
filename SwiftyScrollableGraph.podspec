@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/IvanovGeorge/SwiftyScrollableGraph", :tag => "0.9.0" }
+  s.source       = { :git => "https://github.com/IvanovGeorge/SwiftyScrollableGraph.git", :tag => "0.9.0" }
 
 
 
@@ -107,12 +107,12 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-   s.resource  = "BezierView.swift"
-   s.resources = "CubicCurveAlgorithm.swift"
+  # s.resource  = "BezierView.swift"
+  # s.resources = "CubicCurveAlgorithm.swift"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 
 end
