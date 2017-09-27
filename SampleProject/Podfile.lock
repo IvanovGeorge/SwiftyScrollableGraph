@@ -1,0 +1,22 @@
+PODS:
+  - SwiftyScrollableGraph (0.9.0)
+
+DEPENDENCIES:
+  - SwiftyScrollableGraph (from `https://github.com/IvanovGeorge/SwiftyScrollableGraph`, tag `0.9.0`)
+
+EXTERNAL SOURCES:
+  SwiftyScrollableGraph:
+    :git: https://github.com/IvanovGeorge/SwiftyScrollableGraph
+    :tag: 0.9.0
+
+CHECKOUT OPTIONS:
+  SwiftyScrollableGraph:
+    :git: https://github.com/IvanovGeorge/SwiftyScrollableGraph
+    :tag: 0.9.0
+
+SPEC CHECKSUMS:
+  SwiftyScrollableGraph: 3853eb3f43481fbdca951bf51b55ca95c1424e18
+
+PODFILE CHECKSUM: c8f9d155e76f842db2942d33785bed2ddf595e39
+
+COCOAPODS: 1.3.1

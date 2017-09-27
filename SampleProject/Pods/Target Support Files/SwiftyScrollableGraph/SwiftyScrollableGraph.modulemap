@@ -1,0 +1,6 @@
+framework module SwiftyScrollableGraph {
+  umbrella header "SwiftyScrollableGraph-umbrella.h"
+
+  export *
+  module * { export * }
+}
