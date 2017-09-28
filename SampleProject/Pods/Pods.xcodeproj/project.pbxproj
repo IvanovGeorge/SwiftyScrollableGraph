@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		2306A34515DD4C785C5429279908E5C0 /* CubicCurveAlgorithm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CubicCurveAlgorithm.swift; path = SwiftyScrollableGraph/CubicCurveAlgorithm.swift; sourceTree = "<group>"; };
 		368798278D93E0ED61DA74AA018B62B3 /* Pods-SampleProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleProject-frameworks.sh"; sourceTree = "<group>"; };
-		3AF630693CB3EBDC0506235392298166 /* SwiftyScrollableGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyScrollableGraph.framework; path = SwiftyScrollableGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF630693CB3EBDC0506235392298166 /* SwiftyScrollableGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyScrollableGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52EADA2612BEBEBCA3E10B6FFA60BA03 /* Pods-SampleProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SampleProject-resources.sh"; sourceTree = "<group>"; };
 		5A6F6AAAF10BCBC2D24712F58FDB998B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ACC67107E479D2D95117FE6AF8A2738 /* SwiftyScrollableGraph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyScrollableGraph.swift; path = SwiftyScrollableGraph/SwiftyScrollableGraph.swift; sourceTree = "<group>"; };
@@ -42,16 +42,16 @@
 		86E4A9B1F617A0A18531F58B49275B4E /* SwiftyScrollableGraph-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyScrollableGraph-umbrella.h"; sourceTree = "<group>"; };
 		8723FFE5EB34A27926FCC975F35AF719 /* SwiftyScrollableGraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyScrollableGraph-dummy.m"; sourceTree = "<group>"; };
 		89062D01DF4869CD620B338B52A720DF /* Pods-SampleProject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SampleProject-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE7F072FC7A9B28AB66A4DB748726D5 /* BezierView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BezierView.swift; path = SwiftyScrollableGraph/BezierView.swift; sourceTree = "<group>"; };
 		AA4394911A872A4F4F1C6F1583239F85 /* Pods-SampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleProject.release.xcconfig"; sourceTree = "<group>"; };
-		AD997DD106A3020464835762DE2E8BE6 /* SwiftyScrollableGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyScrollableGraph.modulemap; sourceTree = "<group>"; };
+		AD997DD106A3020464835762DE2E8BE6 /* SwiftyScrollableGraph.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyScrollableGraph.modulemap; sourceTree = "<group>"; };
 		AF9B4CA0142C7B620B6AA9D1995B8ED7 /* SwiftyScrollableGraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyScrollableGraph-prefix.pch"; sourceTree = "<group>"; };
 		B97FF61488E69F4D61A8C666E7BAE82A /* Pods-SampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SampleProject.debug.xcconfig"; sourceTree = "<group>"; };
-		C3EF481E63640EA3C9A2F74747E75EDE /* Pods-SampleProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SampleProject.modulemap"; sourceTree = "<group>"; };
+		C3EF481E63640EA3C9A2F74747E75EDE /* Pods-SampleProject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SampleProject.modulemap"; sourceTree = "<group>"; };
 		DAFA6DC9E037F7529D2596981D8659E1 /* Pods-SampleProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SampleProject-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E05BB9D3C22CB9C532257F88DFF13592 /* Pods-SampleProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SampleProject-dummy.m"; sourceTree = "<group>"; };
-		E534B60474C1AA6F391ED1AF94374508 /* Pods_SampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SampleProject.framework; path = "Pods-SampleProject.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E534B60474C1AA6F391ED1AF94374508 /* Pods_SampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E74116A332C9E7D0EC64C13221F416A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFA91B620ADD9C51A536BC4503B5EC7E /* SwiftyScrollableGraph.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyScrollableGraph.h; path = SwiftyScrollableGraph/SwiftyScrollableGraph.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,13 +79,12 @@
 		073B5F029A889F9F173C7B29A24DB93E /* SwiftyScrollableGraph */ = {
 			isa = PBXGroup;
 			children = (
+				EFA91B620ADD9C51A536BC4503B5EC7E /* SwiftyScrollableGraph.h */,
 				9EE7F072FC7A9B28AB66A4DB748726D5 /* BezierView.swift */,
 				2306A34515DD4C785C5429279908E5C0 /* CubicCurveAlgorithm.swift */,
-				EFA91B620ADD9C51A536BC4503B5EC7E /* SwiftyScrollableGraph.h */,
 				5ACC67107E479D2D95117FE6AF8A2738 /* SwiftyScrollableGraph.swift */,
 				4E9E40DA699DEB13B8A36E4829AEB7B4 /* Support Files */,
 			);
-			name = SwiftyScrollableGraph;
 			path = SwiftyScrollableGraph;
 			sourceTree = "<group>";
 		};

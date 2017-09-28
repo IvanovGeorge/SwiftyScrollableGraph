@@ -1,9 +1,9 @@
 //
 //  BezierView.swift
-//  Bezier
+//  SwiftyScrollableGraph
 //
-//  Created by Ramsundar Shandilya on 10/14/15.
-//  Copyright © 2015 Y Media Labs. All rights reserved.
+//  Created by Георгий on 26.09.17.
+//  Copyright © 2017 Георгий. All rights reserved.
 //
 
 import UIKit

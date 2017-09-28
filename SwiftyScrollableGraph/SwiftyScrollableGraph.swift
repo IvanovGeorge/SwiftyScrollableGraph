@@ -1,6 +1,6 @@
 //
 //  ScrollableChart.swift
-//  chartTest
+//  SwiftyScrollableGraph
 //
 //  Created by Георгий on 26.09.17.
 //  Copyright © 2017 Георгий. All rights reserved.
@@ -58,8 +58,11 @@ public class SwiftyScrollableGraph: UIScrollView, UIScrollViewDelegate {
         
         self.showsHorizontalScrollIndicator = self.showHorizontalIndicator
         
+        infoView?.removeFromSuperview()
+        
         bezierView.removeFromSuperview()
         self.addSubview(bezierView)
+        bezierView.layer.zPosition = 1
         
         bezierView.removeConstraint(bezierViewWidthConstraint)
         self.removeConstraints([graphLeftConstraint,graphRightConstraint])
@@ -123,6 +126,8 @@ public class SwiftyScrollableGraph: UIScrollView, UIScrollViewDelegate {
                 bezierView.placePoint(atPoint: point)
                 
                 self.addSubview(infoView!)
+                infoView?.layer.zPosition = 2
+
             }
         }
     }
@@ -312,13 +317,13 @@ public class SwiftyScrollableGraph: UIScrollView, UIScrollViewDelegate {
         for (index,point) in self.getGraphPoints().enumerated() {
             drawLine(fromPoint: CGPoint(x: point.x + leftSpacer, y: 0 ), toPoint: CGPoint(x: point.x + leftSpacer, y: self.frame.height ), color: yAxisLine.color)
             
-            let desctiptionLabel = UILabel(frame: CGRect(x: 0, y: 0, width: spaceBetweenPoints, height: 50))
-            desctiptionLabel.font = desctiptionLabel.font.withSize(12)
-            desctiptionLabel.text = pointsData[index].description
-            descriptionLabel.textColor = yAxisLine.color
-            desctiptionLabel.center = CGPoint(x: point.x + leftSpacer + spaceBetweenPoints / 2 + 5, y: self.frame.height - 20  ) //-7 - рзамер самой буквы
-            self.addSubview(desctiptionLabel)
-            self.viewsToClear.append(desctiptionLabel)
+            let axisDeskLabel = UILabel(frame: CGRect(x: 0, y: 0, width: spaceBetweenPoints, height: 50))
+            axisDeskLabel.font = axisDeskLabel.font.withSize(12)
+            axisDeskLabel.text = pointsData[index].description
+            axisDeskLabel.textColor = yAxisLine.color
+            axisDeskLabel.center = CGPoint(x: point.x + leftSpacer + spaceBetweenPoints / 2 + 3, y: self.frame.height - 14 )
+            self.addSubview(axisDeskLabel)
+            self.viewsToClear.append(axisDeskLabel)
 
         }
     }
@@ -328,13 +333,14 @@ public class SwiftyScrollableGraph: UIScrollView, UIScrollViewDelegate {
         for index in 0...10 {
             drawLine(fromPoint: CGPoint(x: -self.frame.width, y: CGFloat(index) * (self.frame.height - topSafeArea * 2 ) / 10 + topSafeArea  ), toPoint: CGPoint(x: bezierView.frame.size.width + rightSpacer + leftSpacer + self.frame.width * 2, y: CGFloat(index) * (self.frame.height - topSafeArea * 2 ) / 10 + topSafeArea  ), color: xAxisLine.color)
             
-            let desctiptionLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
-            desctiptionLabel.font = desctiptionLabel.font.withSize(12)
-            descriptionLabel.textColor = xAxisLine.color
-            desctiptionLabel.text = "\(pointValues.max()! - pointValues.max()! / 10 * index)"
-            desctiptionLabel.center = CGPoint(x: 30, y: CGFloat(index) * (self.frame.height - topSafeArea * 2 ) / 10 + topSafeArea + self.frame.minY - 7  ) //-7 - рзамер самой буквы
-            self.superview?.addSubview(desctiptionLabel)
-            self.viewsToClear.append(desctiptionLabel)
+            let axisDeskLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 50, height: 50))
+            axisDeskLabel.font = axisDeskLabel.font.withSize(12)
+            axisDeskLabel.textColor = xAxisLine.color
+            axisDeskLabel.text = "\(pointValues.max()! - pointValues.max()! / 10 * index)"
+            axisDeskLabel.center = CGPoint(x: 30, y: CGFloat(index) * (self.frame.height - topSafeArea * 2 ) / 10 + topSafeArea + self.frame.minY - 7  ) // 7 - рзамер самой буквы
+            self.superview?.addSubview(axisDeskLabel)
+            self.viewsToClear.append(axisDeskLabel)
+
 
         }
     }
@@ -352,6 +358,7 @@ public class SwiftyScrollableGraph: UIScrollView, UIScrollViewDelegate {
         self.layer.addSublayer(line)
         self.layersToClear.append(line)
     }
+    
 
     
 
