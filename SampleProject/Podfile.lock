@@ -1,11 +1,11 @@
 PODS:
-  - SwiftyScrollableGraph (0.9.2)
+  - SwiftyScrollableGraph (0.9.3)
 
 DEPENDENCIES:
   - SwiftyScrollableGraph
 
 SPEC CHECKSUMS:
-  SwiftyScrollableGraph: 7a6a26bb5034aa376d81c3b3e4d1d034f667a88a
+  SwiftyScrollableGraph: 77a4de1b21e57db17f187fba11f9613f3b9099c0
 
 PODFILE CHECKSUM: d25efc2bdc5c75f0e29123db3d0ca1d7234729a4
 
