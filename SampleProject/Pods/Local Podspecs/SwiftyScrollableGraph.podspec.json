@@ -1,6 +1,6 @@
 {
   "name": "SwiftyScrollableGraph",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "summary": "An easy to use swift scrollable graph view.",
   "description": "SwiftyScrollableGraph is easy to setup and use scrollable graph view for swift.\nCustomizable, fast and clean.",
   "homepage": "https://vk.com/id415418",
@@ -10,7 +10,7 @@
     "ios": "10.0"
   },
   "source": {
-    "git": "https://github.com/IvanovGeorge/SwiftyScrollableGraph",
+    "git": "https://github.com/IvanovGeorge/SwiftyScrollableGraph.git",
     "tag": "0.9.0"
   },
   "source_files": [
@@ -18,8 +18,7 @@
     "SwiftyScrollableGraph/**/*.{h,m,swift}"
   ],
   "exclude_files": "Classes/Exclude",
-  "resources": "CubicCurveAlgorithm.swift",
   "pod_target_xcconfig": {
-    "SWIFT_VERSION": "4"
+    "SWIFT_VERSION": "4.0"
   }
 }
