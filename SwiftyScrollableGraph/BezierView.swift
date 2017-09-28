@@ -173,7 +173,7 @@ extension BezierView {
         
         var delay = animationTime  / Double(dataPoints!.count )
         
-        for (_,point) in pointLayers.enumerated() {
+        for point in pointLayers {
             
             let fadeAnimation = CABasicAnimation(keyPath: "opacity")
             fadeAnimation.toValue = 1

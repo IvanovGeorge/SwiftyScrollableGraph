@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwiftyScrollableGraph"
-  s.version      = "0.9.0"
+  s.version      = "0.9.1"
   s.summary      = "An easy to use swift scrollable graph view."
 
   # This description is used to generate tags and improve search results.
@@ -112,7 +112,7 @@ Pod::Spec.new do |s|
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
 
 end
