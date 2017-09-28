@@ -21,25 +21,45 @@ Now it's ready! You should see somthing like this:
 Now, you want to make some customiztion. Just see this commands and theyr description (or check the SampleProject)
 
 reloadGraphWith(pointsData: [(value: Int, description: String)]) // loads data to graph and draw it.
+
 autoScroll = Bool // true enables autoscrolling to the end of graph on draw  
+
 infoView = UIView // This can override default infoView. You can just ignore it, or set to nil to use default infoView
+
 backgroundColor  = UIColor // background color
+
 spaceBetweenPoints = Int // this is space beetween two point on xAxis
+
 animation = Bool //ebale or disable graph draw animation
+
 animationTime = Int // time, which graph animation will take (see )
+
 leftSpacer = Int // left safe space, so you can scroll to the first point
+
 rightSpacer = Int // right safe space, so you can scroll to the last point
+
 chartLine.color = UIColor // chartline color
+
 chartLine.size = Int // charline size
+
 pickedPoint.size = Int // current "picked" point size. Set to 0, not to show it
+
 pickedPoint.color = UIcolor // current "picked" point color
+
 points.size = Int // all graph points size. Set to 0, not to show them
+
 points.color = UIColor // graph points color
+
 xAxisLine.isOn = Bool // show or not xAxis Line
+
 xAxisLine.size = 1 // xAxis line size 
+
 xAxisLine.color = UIColor // xAxis line color
+
 yAxisLine.isOn = Bool // show or not yAxis Line
+
 yAxisLine.size = 1 // yAxis line size 
+
 yAxisLine.color = UIColor // xAxis line color
 
 
