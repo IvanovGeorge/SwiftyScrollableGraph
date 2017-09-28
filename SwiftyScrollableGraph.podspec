@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
   Customizable, fast and clean.
                    DESC
 
-  s.homepage     = "https://vk.com/id415418"
+  s.homepage     = "https://github.com/IvanovGeorge/SwiftyScrollableGraph"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
   #s.author             = { "" => "" }
    s.author    = "George Ivanov"
   # s.authors            = { "" => "" }
-  # s.social_media_url   = "http://twitter.com/"
+   s.social_media_url   = "https://vk.com/id415418"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
