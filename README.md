@@ -12,11 +12,11 @@
 
 ## Overview
 
-SwiftyScrollableGraph issan easy to setup and use scrollable graph view for swift. Customizable, fast and clean.
+SwiftyScrollableGraph is an easy to setup and use scrollable graph view for swift. Customizable, fast and clean.
  * Adding in storyboard just with drag and drop 
- * Auto calculate all x and y point position in any size. Place your SwiftyScrollableGraph anywhere you need.
- * A lot customizations variants without lot of custom code
- * Curve algorithm based on [Ramsundar Shandilya](https://github.com/Ramshandilya) CubicCurveAlgorithm
+ * Auto calculating all x and y point position in any size. Place your SwiftyScrollableGraph anywhere you need.
+ * A lot customizations variants without lot of custom code.
+ * Curve algorithm based on [Ramsundar Shandilya](https://github.com/Ramshandilya) CubicCurveAlgorithm.
  
 Check out sample project, to see it in action!
 
@@ -35,12 +35,9 @@ Check out sample project, to see it in action!
 $ gem install cocoapods
 ```
 
-To integrate SwiftyScrollableGraph into your Xcode project using CocoaPods, specify it in your `Podfile`:
+To integrate SwiftyScrollableGraph into your Xcode project using CocoaPods, add in your `Podfile`:
 
 ```ruby
-source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '11.0'
-use_frameworks!
 
 pod 'SwiftyScrollableGraph'
 
