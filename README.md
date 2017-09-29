@@ -64,13 +64,13 @@ And it's done! Build and run your project, and you should see default graph draw
 
 ### Customization
 
-> There is full list of command you may want to use for your graph. You can also check the sample project, where most of them are implemeted.
+There is full list of command you may want to use for your graph. You can also check the sample project, where most of them are implemeted.
 
-> This eample could be helpfull for understandig base terms.
+This eample could be helpfull for understandig base terms.
 ![](etc/example.png)
 
 
-> Code examples:
+Code examples:
 
 ``` swift
 
