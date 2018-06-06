@@ -10,6 +10,13 @@
 > * [**Hire me**](mailto:omfghelo@gmail.com) to help you with your projects. 
 > * Building and maintaining this free library takes time. Help keep me awake via [PayPal](https://www.paypal.me/IvanovGeorge).
 
+## Todo
+ * Remove all concole data
+ * Fix bug when initing with 1 element
+ * Fix some property names
+ * Edit README (missing import case)
+ * Check leaks
+
 ## Overview
 
 SwiftyScrollableGraph is an easy to setup and use scrollable graph view for swift. Customizable, fast and clean.
