@@ -11,7 +11,8 @@
 > * Building and maintaining this free library takes time. Help keep me awake via [PayPal](https://www.paypal.me/IvanovGeorge).
 
 ## Todo
- * Remove all concole data
+ * Use Float insted of Int
+ * Remove all concole printing
  * Fix bug when initing with 1 element
  * Fix some property names
  * Edit README (missing import case)
